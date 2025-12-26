@@ -1,5 +1,6 @@
 
-import type { FAQItem, FeatureItem } from './types';
+import React from 'react';
+import type { FAQItem, FeatureItem, BlogPost } from './types';
 import {
     MessageCircle,
     ShieldCheck,
@@ -101,5 +102,47 @@ export const FAQS: FAQItem[] = [
     {
         question: "¿Realmente no cobran comisiones?",
         answer: "Correcto. Solo pagas tu suscripción fija. Cero comisiones por transacciones, sin importar cuánto vendas."
+    }
+];
+
+export const BLOG_POSTS: BlogPost[] = [
+    {
+        id: "1",
+        slug: "vender-por-whatsapp-peru-guia-2024",
+        title: "Cómo vender por WhatsApp en Perú: Guía Definitiva 2024",
+        excerpt: "Descubre las mejores estrategias para convertir tu WhatsApp en una máquina de ventas imparable este año.",
+        content: "Vender por WhatsApp en Perú se ha convertido en la estrategia número uno para emprendedores locales. En esta guía exploramos cómo configurar tu catálogo en TiendaX, usar mensajes de bienvenida efectivos y cerrar ventas usando Yape o Plin de forma integrada. La clave del éxito en el ecommerce peruano es la inmediatez y la confianza que genera el trato directo por chat.",
+        category: "Guías",
+        author: "Equipo TiendaX",
+        date: "15 May, 2024",
+        dateISO: "2024-05-15",
+        readTime: "8 min",
+        image: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        id: "2",
+        slug: "ventajas-catalogo-digital-vs-pdf",
+        title: "5 Ventajas de usar un Catálogo Digital vs. un PDF estático",
+        excerpt: "Deja de enviar archivos pesados. Pásate al link interactivo y mejora la experiencia de tus clientes.",
+        content: "Muchos negocios en Lima siguen usando PDFs pesados que los clientes no quieren descargar. Un catálogo digital como el de TiendaX carga en menos de 1 segundo, permite búsquedas inteligentes y, lo más importante, tiene botones de compra que envían el pedido estructurado a tu celular. Descubre por qué el 90% de los usuarios prefiere links a archivos adjuntos.",
+        category: "E-commerce",
+        author: "Ana Lizárraga",
+        date: "12 May, 2024",
+        dateISO: "2024-05-12",
+        readTime: "5 min",
+        image: "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?auto=format&fit=crop&q=80&w=800"
+    },
+    {
+        id: "3",
+        slug: "digitalizacion-pymes-gamarra-consejos",
+        title: "Digitalización de Pymes: Por dónde empezar en Gamarra",
+        excerpt: "Consejos prácticos para los textileros y comerciantes de Gamarra que quieren dar el salto al mundo online.",
+        content: "El emporio de Gamarra es el corazón comercial de Perú, pero la digitalización aún es un reto. En este artículo detallamos cómo los textileros pueden usar TiendaX para mostrar sus colecciones de temporada sin necesidad de una web costosa, facilitando que clientes de provincia vean sus productos y hagan pedidos mayoristas por WhatsApp de forma segura.",
+        category: "Emprendimiento",
+        author: "Roberto Tapia",
+        date: "10 May, 2024",
+        dateISO: "2024-05-10",
+        readTime: "6 min",
+        image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=800"
     }
 ];

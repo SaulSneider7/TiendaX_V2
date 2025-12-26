@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Instagram, MessageCircle } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 import {FaWhatsapp } from 'react-icons/fa';
 import { WHATSAPP_LINK, INSTAGRAM_URL } from '../constants';
 
