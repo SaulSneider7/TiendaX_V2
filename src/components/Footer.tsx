@@ -1,8 +1,8 @@
 
 import React from 'react';
-import { ShoppingCart, MessageCircle, Instagram, Heart, Send, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { ShoppingCart, Instagram, Heart, Send, Facebook, Twitter, Linkedin } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { WHATSAPP_LINK, INSTAGRAM_URL } from '../constants';
+// import { WHATSAPP_LINK, INSTAGRAM_URL } from '../constants';
 
 interface FooterProps {
     onNavigate?: (view: 'home' | 'blog') => void;

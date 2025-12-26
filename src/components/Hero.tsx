@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import type { Variants } from 'framer-motion';
-import { Zap, Clock, ArrowRight, CheckCircle2, Star, Sparkles } from 'lucide-react';
+import { Clock, ArrowRight, CheckCircle2, Star, Sparkles } from 'lucide-react';
 import { WHATSAPP_LINK } from '../constants';
 
 const Hero: React.FC = () => {

@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { BLOG_POSTS } from '../constants';
 import type { BlogPost } from '../types';
-import { Calendar, Clock, ArrowRight, Search, ChevronRight, Share2, ArrowLeft } from 'lucide-react';
+import { Calendar, Clock, Search, ChevronRight, Share2, ArrowLeft } from 'lucide-react';
 
 const Blog: React.FC = () => {
     const [activeCategory, setActiveCategory] = useState('Todos');

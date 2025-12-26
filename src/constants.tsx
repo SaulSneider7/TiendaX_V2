@@ -1,5 +1,4 @@
 
-import React from 'react';
 import type { FAQItem, FeatureItem, BlogPost } from './types';
 import {
     MessageCircle,
